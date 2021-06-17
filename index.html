@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hover Board</title>
+</head>
+<body>
+    <div class="container" id="board"></div>
+
+    <script src="app.js"></script>
+    <script type="text/javascript">
+        const hoverBoard = new HoverBoard({
+            squares: 360,
+            boardId: 'board',
+            colors: ['#e74c3c', '#8e44ad', '#3498db', '#e67e22', '#2ecc71', '#A8F9FF', '#9AE5E6', '#E55934', '#D9594C', '#C3BF6D', '#89608E', '#EDFFAB', '#7AE7C7', '#58355E']
+        }).init();
+    </script>
+</body>
+</html>
